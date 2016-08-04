@@ -34,9 +34,9 @@
 
 - run `:PluginInstall` in `vim`
 - Link vimrc to `.vimrc`
-  ```
-    ln vimrc ~/.vimrc
-  ```
+```
+  ln vimrc ~/.vimrc
+```
 - Then, you can enjoy this.
 
 ## Screen Shot
