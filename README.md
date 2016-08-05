@@ -33,9 +33,13 @@
 ## Install Plugin
 
 - run `:PluginInstall` in `vim`
-- Link vimrc to `.vimrc`
+- Link file `vimrc` to `.vimrc`
 ```
   ln vimrc ~/.vimrc
+```
+- Link folder `vimrc` to `.vim`
+```
+  ln -s vimrc ~/.vim
 ```
 - Then, you can enjoy this.
 
