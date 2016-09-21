@@ -28,14 +28,18 @@
 - [ramitos/jsctags](https://github.com/ramitos/jsctags)
 - [maksimr/vim-jsbeautify](https://github.com/maksimr/vim-jsbeautify)
 - [flazz/vim-colorschemes](https://github.com/flazz/vim-colorschemes)
-  - You need to copy `flazz/vim-colorschemes/colors` to `~/.vim/color`.
+  - You need to copy `flazz/vim-colorschemes/colors` to `~/.vim/colors`.
 
 ## Install Plugin
 
 - run `:PluginInstall` in `vim`
-- Link vimrc to `.vimrc`
+- Link file `vimrc` to `.vimrc`
 ```
   ln vimrc ~/.vimrc
+```
+- Link folder `vimrc` to `.vim`
+```
+  ln -s vimrc ~/.vim
 ```
 - Then, you can enjoy this.
 
