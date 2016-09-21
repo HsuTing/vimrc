@@ -72,6 +72,7 @@ let g:javascript_plugin_jsdoc = 1
 " color
 Plugin 'flazz/vim-colorschemes'
 :colorscheme molokai
+let g:jsx_ext_required = 0
 
 call vundle#end()
 filetype plugin indent on
