@@ -37,10 +37,6 @@
 ```
   ln vimrc ~/.vimrc
 ```
-- Link folder `vimrc` to `.vim`
-```
-  ln -s vimrc ~/.vim
-```
 - Then, you can enjoy this.
 
 ## Screen Shot
